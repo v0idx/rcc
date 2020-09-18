@@ -1,0 +1,1 @@
+S:\comp\ sci\rcc-git\rcc\cc\lex\lex_cargo\target\debug\lex_cargo.exe: S:\comp\ sci\rcc-git\rcc\cc\lex\lex_cargo\src\lex\tokens.rs S:\comp\ sci\rcc-git\rcc\cc\lex\lex_cargo\src\lex.rs S:\comp\ sci\rcc-git\rcc\cc\lex\lex_cargo\src\main.rs
