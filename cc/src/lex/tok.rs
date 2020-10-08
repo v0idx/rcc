@@ -1,6 +1,13 @@
 use lazy_static::lazy_static;
 use std::collections::HashMap;
 
+//create a struct for tokens
+struct Token {
+    val: u16,
+    name: String,
+    token: String,
+}
+
 //doubles
 const EQ: u16 = 0;
 const NE: u16 = 1;
@@ -9,6 +16,7 @@ const LE: u16 = 3;
 
 const AND: u16 = 4;
 const OR: u16 = 5;
+const INC: u16 = 6;
 
 lazy_static! {
     pub static ref DOUBLES: HashMap<&'static str, u16> = {
@@ -19,6 +27,7 @@ lazy_static! {
         m.insert("<=", LE);
         m.insert("&&", AND);
         m.insert("||", OR);
+        m.insert("++", INC);
         m
     };
 }
